@@ -1,0 +1,191 @@
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:700|Open+Sans:400,700);
+/*
+
+General style for the page
+
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+body,
+html{
+	height: 100%;
+}
+
+header{
+	background: rgba(52, 51, 51, .8);
+	width: 100%;
+	padding: 10px;
+	height: 60px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+}
+
+.main-nav{
+	margin: 15px 0 10px 0;
+}
+
+.main-nav ul{
+	list-style-type: none;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.main-nav li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.1em;
+	padding: 5px;
+}
+
+/*
+
+Wrapper styling
+
+*/
+.wrapper{
+	width: 100%;
+	min-height: 100%;
+	padding-top: 80px; 
+}
+
+.wrapper:after{
+	content: "";
+	display: block;
+}
+
+
+/*
+
+Introduction part and style
+
+*/
+.main-introduction{
+	text-align: center;
+	text-align: -webkit-center;
+	margin: 15px 0 15px 0;
+}
+
+.main-introduction h1{
+	font-family: "Droid Serif", sans-serif;
+}
+
+.profile-pic{
+	width: 150px;
+	height: 5%;
+}
+
+.profile-pic img{
+	border-radius: 50%;
+}
+
+
+/*
+
+Main content and style
+
+*/
+.content-container{
+	width: 85%;
+	margin: 50px auto;
+	background: #EDEBEB;
+	padding: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.content-container .user-name{
+	margin-bottom: 20px;
+	font-family: "Droid Serif", sans-serif;
+	color: #666;
+	font-size: 1em;
+}
+
+.content-container h2{
+	margin-bottom: 10px;
+	letter-spacing: .1em
+}
+
+.content-container p{
+	line-height: 1.6em;
+	font-size: 1.05em;
+	margin-bottom: 10px;
+	letter-spacing: .1em;
+}
+
+.content-container h2 p{
+	padding-right: 20px;
+}
+
+
+/*
+
+footer styling
+
+*/
+
+footer{
+	text-align: center;
+	width: 100%;
+}
+
+footer p{
+	font-size: .8em;
+	color: #666;
+}
+
+footer .footer-content {
+	margin: 70px 0 70px 0;
+}
+
+.social-icon{
+  width: 33px;
+  height: 33px;
+  margin: 0 5px;
+}
+
+.ig-b- { display: inline-block; }
+.ig-b- img { visibility: hidden; }
+.ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; }
+.ig-b-32 { width: 32px; height: 32px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-32.png) no-repeat 0 0; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+.ig-b-32 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-32@2x.png); background-size: 60px 178px; } }
+
+footer,
+.wrapper:after{
+	height: 147px;
+}
+
+.footer-margin{
+	margin: 5px 10px;
+}
+
+
+/*Clear hack fix*/
+.group:before,
+.group:after{
+	content: "";
+	display: block;
+}
+
+.group:after{
+	clear: both;
+}
+
+
+

@@ -61,7 +61,7 @@ Wrapper styling
 .wrapper{
 	width: 100%;
 	min-height: 100%;
-	padding-top: 80px; 
+	/*padding-top: 80px; */
 }
 
 .wrapper:after{
@@ -78,7 +78,7 @@ Introduction part and style
 .main-introduction{
 	text-align: center;
 	text-align: -webkit-center;
-	margin: 15px 0 15px 0;
+	margin: 20px 0 15px 0;
 }
 
 .main-introduction h1{
